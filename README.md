@@ -16,3 +16,7 @@ docker run -ti --rm -p "8080:8080" example
 ```
 
 2. Open http://localhost:8080 and check the console for errors
+
+## result
+
+<img src="./result.png" />
