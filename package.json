@@ -1,0 +1,35 @@
+{
+  "name": "firebase-js-sdk-securityerror-example",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "webpack",
+    "start": "PORT=8080 node ./dev-server.js"
+  },
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@babel/core": "7.7.0",
+    "@babel/polyfill": "7.7.0",
+    "@babel/preset-env": "7.7.0",
+    "babel-loader": "^8.0.0",
+    "core-js": "3",
+    "firebase": "7.5.0",
+    "html-loader": "^0.5.5",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.2.1"
+  },
+  "browserslist": {
+    "production": [
+      "last 2 version",
+      "ie >= 11",
+      "not ie <= 10"
+    ],
+    "development": [
+      "last 1 version"
+    ]
+  },
+  "dependencies": {
+    "bowser": "^2.4.0"
+  }
+}
